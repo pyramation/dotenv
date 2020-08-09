@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dotenv development 1`] = `
+Object {
+  "DOTENV_TEST_BASE_ENV": "1",
+  "DOTENV_TEST_BASE_ENV_LOCAL": "1",
+  "DOTENV_TEST_ENV_DEV": "1",
+  "DOTENV_TEST_ENV_DEV_LOCAL": "1",
+}
+`;
+
+exports[`dotenv production 1`] = `
+Object {
+  "DOTENV_TEST_BASE_ENV": "1",
+  "DOTENV_TEST_BASE_ENV_LOCAL": "1",
+  "DOTENV_TEST_ENV_PROD": "1",
+  "DOTENV_TEST_ENV_PROD_LOCAL": "1",
+}
+`;
+
+exports[`dotenv test 1`] = `
+Object {
+  "DOTENV_TEST_BASE_ENV": "1",
+  "DOTENV_TEST_BASE_ENV_LOCAL": "1",
+  "DOTENV_TEST_ENV_TEST": "1",
+  "DOTENV_TEST_ENV_TEST_LOCAL": "1",
+}
+`;
